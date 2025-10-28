@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: hack-a-cure-medical
+    env: python
+    plan: free
+    buildCommand: |
+      pip install -r requirements.txt
+      python build.py
+    startCommand: uvicorn competition_api:app --host 0.0.0.0 --port $PORT
