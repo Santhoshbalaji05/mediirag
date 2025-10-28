@@ -4,4 +4,7 @@ chromadb==0.4.22
 google-generativeai==0.3.2
 pypdf==3.17.0
 gdown==4.7.1
-numpy==2.0.0
+numpy==1.24.3
+langchain-community==0.0.10
+langchain-text-splitters==0.0.1
+sentence-transformers==2.2.2
